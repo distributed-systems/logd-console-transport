@@ -1,0 +1,32 @@
+{
+  "name": "logd-console-transport",
+  "version": "1.0.0",
+  "description": "console transport for logd. prints messages to the console",
+  "main": "src/ConsoleTransport.mjs",
+  "scripts": {
+    "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-systems/logd-console-transport.git"
+  },
+  "keywords": [
+    "logd",
+    "logd-transport",
+    "logd-console",
+    "console"
+  ],
+  "author": "Michael van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributed-systems/logd-console-transport/issues"
+  },
+  "homepage": "https://github.com/distributed-systems/logd-console-transport#readme",
+  "devDependencies": {
+    "section-tests": "^2.0.2"
+  },
+  "dependencies": {
+    "logd": "^2.0.1",
+    "logd-console-output": "^1.1.1"
+  }
+}
