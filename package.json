@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/distributed-systems/logd-console-transport#readme",
   "devDependencies": {
-    "section-tests": "^2.0.2"
+    "section-tests": "^2.1.1"
   },
   "dependencies": {
     "logd": "^2.0.1",
