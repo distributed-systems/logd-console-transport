@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "console transport for logd. prints messages to the console",
   "main": "src/ConsoleTransport.mjs",
-  "types": "index.d.ts",
+  "types": "src/ConsoleTransport.d.ts",
   "scripts": {
     "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs"
   },
