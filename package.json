@@ -2,7 +2,7 @@
   "name": "logd-console-transport",
   "version": "1.0.3",
   "description": "console transport for logd. prints messages to the console",
-  "main": "src/ConsoleTransport.mjs",
+  "main": "src/ConsoleTransport.js",
   "types": "src/ConsoleTransport.d.ts",
   "scripts": {
     "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs"
