@@ -1,6 +1,6 @@
 {
   "name": "logd-console-transport",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "console transport for logd. prints messages to the console",
   "main": "src/ConsoleTransport.js",
   "types": "src/ConsoleTransport.d.ts",
