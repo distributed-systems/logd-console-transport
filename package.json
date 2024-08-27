@@ -2,8 +2,8 @@
   "name": "logd-console-transport",
   "version": "2.0.0",
   "description": "console transport for logd. prints messages to the console",
-  "main": "src/ConsoleTransport.js",
-  "types": "src/ConsoleTransport.d.ts",
+  "main": "dist/ConsoleTransport.js",
+  "types": "dist/ConsoleTransport.d.ts",
   "scripts": {
     "build": "node ./node_modules/.bin/tsc",
     "start": "node ./node_modules/.bin/tsc && node dist/index.js --l --dev",
