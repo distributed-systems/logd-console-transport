@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "logd": "^4.0.1",
-    "logd-console-output": "^2.0.0"
+    "logd-console-output": "^2.0.5"
   },
   "type": "module"
 }
