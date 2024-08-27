@@ -5,7 +5,9 @@
   "main": "src/ConsoleTransport.js",
   "types": "src/ConsoleTransport.d.ts",
   "scripts": {
-    "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs"
+    "build": "node ./node_modules/.bin/tsc",
+    "start": "node ./node_modules/.bin/tsc && node dist/index.js --l --dev",
+    "clean": "rm -r build"
   },
   "repository": {
     "type": "git",
@@ -17,18 +19,19 @@
     "logd-console",
     "console"
   ],
-  "author": "Michael van der Weg",
+  "author": "Lina van der Weg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/distributed-systems/logd-console-transport/issues"
   },
   "homepage": "https://github.com/distributed-systems/logd-console-transport#readme",
   "devDependencies": {
-    "section-tests": "^2.1.1"
+    "@tsconfig/node18": "^18.2.4",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "logd": "^2.0.1",
-    "logd-console-output": "^1.1.1"
+    "logd": "^4.0.1",
+    "logd-console-output": "^2.0.0"
   },
   "type": "module"
 }
